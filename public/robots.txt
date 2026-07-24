@@ -1,0 +1,11 @@
+# Robots.txt for Abigaïl Leconte - Thérapeute en relation d'aide
+# https://abigailtherapeute.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://abigailtherapeute.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HD9XJSQYR7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // Initialiser avec le consentement refusé par défaut (RGPD)
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+      });
+
+      gtag('config', 'G-HD9XJSQYR7');
+    </script>
+    
+    <!-- Preconnect to Google Fonts for faster font loading (LCP optimization) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Favicon (will be replaced dynamically by React) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>" />
+    
+    <title>Thérapeute en relation d'aide à Montréal - Abigaïl Leconte</title>
+    
+    <!-- Inline critical CSS to reduce render-blocking (LCP optimization) -->
+    <style>
+      /* Prevent flash of unstyled content */
+      body {
+        margin: 0;
+        font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      /* CLS prevention: Reserve space for root element */
+      #root {
+        min-height: 100vh;
+        isolation: isolate;
+      }
+      
+      /* Loading state to prevent CLS during hydration */
+      .app-loading {
+        opacity: 0;
+        animation: fadeIn 150ms ease-in forwards;
+        animation-delay: 50ms;
+      }
+      
+      @keyframes fadeIn {
+        to { opacity: 1; }
+      }
+      
+      /* Prevent layout shift from images */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Optimize animations for better INP */
+      * {
+        will-change: auto !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="app-loading"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
