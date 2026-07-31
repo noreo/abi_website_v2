@@ -62,7 +62,7 @@ export function Accordion({ items, allowMultiple = false }: AccordionProps) {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border border-gray-100">
+    <div className="bg-dark rounded-lg shadow-sm border border-gray-100">
       {items.map((item, index) => (
         <AccordionItem
           key={index}

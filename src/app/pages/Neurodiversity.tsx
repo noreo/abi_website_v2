@@ -84,7 +84,7 @@ export default function Neurodiversity() {
       </section>
 
       {/* Thérapie individuelle */}
-      <section className="bg-white content-stretch flex flex-col items-center pb-[96px] pt-[24px] px-4 md:px-8 relative w-full">
+      <section className="bg-dark content-stretch flex flex-col items-center pb-[96px] pt-[24px] px-4 md:px-8 relative w-full">
         <div className="w-full max-w-[1320px] mx-auto">
           <FadeInOnScroll>
             <h2 className="text-[38px] leading-[42px] sm:text-[44px] sm:leading-[48px] text-primary font-normal mb-8">
@@ -138,7 +138,7 @@ export default function Neurodiversity() {
       </section>
 
       {/* Pour qui? */}
-      <section className="bg-white py-24">
+      <section className="bg-dark py-24">
         <div className="w-full max-w-[1320px] mx-auto px-4 md:px-8">
           <FadeInOnScroll>
             <div className="bg-[rgba(10,100,142,0.1)] rounded-[16px] border-2 border-[#edefeb] p-6 md:p-10">

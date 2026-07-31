@@ -133,7 +133,7 @@ sections:
       - "[page]-header-title"
     tailwind_classes:
       - "Layout: min-h-screen, bg-gray-50"
-      - "Header: bg-white, border-b, px-4, py-3"
+      - "Header: bg-dark, border-b, px-4, py-3"
       - "Button: text-gray-600, hover:text-gray-900"
     acceptance_criteria:
       - "Header displays with back button and title"

@@ -33,7 +33,7 @@ export default function Testimonials() {
       <section className="max-w-[1320px] mx-auto px-4 py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {quotes.map((quote, index) => (
-            <div key={index} className="bg-white rounded-[16px] shadow-sm border border-gray-100 p-8 flex flex-col gap-6 relative group hover:shadow-md transition-shadow">
+            <div key={index} className="bg-dark rounded-[16px] shadow-sm border border-gray-100 p-8 flex flex-col gap-6 relative group hover:shadow-md transition-shadow">
               <span className="text-[54px] text-primary leading-none absolute top-4 left-4 opacity-20 group-hover:opacity-40 transition-opacity">"</span>
               <p className="text-[18px] text-foreground leading-relaxed relative z-10 pt-6">
                 {quote.text}

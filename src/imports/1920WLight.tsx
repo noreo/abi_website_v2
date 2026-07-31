@@ -661,7 +661,7 @@ function Container() {
 
 function Section2() {
   return (
-    <div className="bg-white relative shrink-0 w-full" data-name="Section">
+    <div className="bg-dark relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col gap-[16px] items-center pb-[16px] px-[300px] relative w-full">
           <div className="flex flex-col font-semibold h-[54.4px] justify-center leading-[0] relative shrink-0 text-primary text-[41px] text-center w-[974.93px]" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
@@ -676,7 +676,7 @@ function Section2() {
 
 function Section1() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[32px] items-center justify-center pt-[88px] relative shrink-0 w-full" data-name="Section">
+    <div className="bg-dark content-stretch flex flex-col gap-[32px] items-center justify-center pt-[88px] relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col font-semibold h-[54.4px] justify-center leading-[0] relative shrink-0 text-primary text-[54px] text-center w-[974.93px]" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
         <p className="leading-[54.4px] whitespace-pre-wrap">L’approche</p>
       </div>
@@ -701,7 +701,7 @@ function Frame9() {
 
 function Section3() {
   return (
-    <div className="bg-white relative shrink-0 w-full" data-name="Section">
+    <div className="bg-dark relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col items-center justify-center size-full">
         <div className="content-stretch flex flex-col items-center justify-center pb-[88px] pl-[481px] pr-[493.3px] relative w-full">
           <Frame9 />
@@ -714,7 +714,7 @@ function Section3() {
 function Frame19() {
   return (
     <div className="content-stretch flex gap-[32px] items-start justify-center relative shrink-0 w-full">
-      <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="quote">
+      <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="quote">
         <div className="content-stretch flex gap-[16px] items-start p-[32px] relative w-full">
           <div className="flex flex-col font-semibold h-[31px] justify-center leading-[0] relative shrink-0 text-primary text-[54px] text-center w-[26px]" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
             <p className="leading-[54.4px] whitespace-pre-wrap">«</p>
@@ -728,7 +728,7 @@ function Frame19() {
           </div>
         </div>
       </div>
-      <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="quote">
+      <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="quote">
         <div className="content-stretch flex gap-[16px] items-start p-[32px] relative w-full">
           <div className="flex flex-col font-semibold h-[31px] justify-center leading-[0] relative shrink-0 text-primary text-[54px] text-center w-[26px]" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
             <p className="leading-[54.4px] whitespace-pre-wrap">«</p>
@@ -742,7 +742,7 @@ function Frame19() {
           </div>
         </div>
       </div>
-      <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="quote">
+      <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="quote">
         <div className="content-stretch flex gap-[16px] items-start p-[32px] relative w-full">
           <div className="flex flex-col font-semibold h-[31px] justify-center leading-[0] relative shrink-0 text-primary text-[54px] text-center w-[26px]" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
             <p className="leading-[54.4px] whitespace-pre-wrap">«</p>
@@ -842,7 +842,7 @@ function Background() {
 
 function Section5() {
   return (
-    <div className="bg-white relative shrink-0 w-full" data-name="Section">
+    <div className="bg-dark relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col justify-center size-full">
         <div className="content-stretch flex flex-col items-start justify-center px-[316px] py-[160px] relative w-full">
           <Background />
@@ -920,7 +920,7 @@ function Frame28() {
 
 function Frame20() {
   return (
-    <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]">
+    <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]">
       <div className="content-stretch flex gap-[104px] items-start p-[72px] relative w-full">
         <Frame22 />
         <Frame28 />
@@ -964,7 +964,7 @@ function ParagraphBackground() {
 
 function Section7() {
   return (
-    <div className="bg-white relative shrink-0 w-full" data-name="Section">
+    <div className="bg-dark relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col justify-center size-full">
         <div className="content-stretch flex flex-col items-start justify-center px-[536px] py-[88px] relative w-full">
           <ParagraphBackground />
@@ -1011,14 +1011,14 @@ function Container4() {
 function Frame26() {
   return (
     <div className="content-stretch flex gap-[24px] items-center relative shrink-0 w-full">
-      <div className="bg-white flex-[1_0_0] min-h-[48px] min-w-px relative rounded-[16px] shadow-[0px_1px_1px_0px_rgba(0,0,0,0.07),0px_1px_3px_0px_rgba(0,0,0,0.07),0px_0px_0px_1px_rgba(0,0,0,0.03)]" data-name="Component 2">
+      <div className="bg-dark flex-[1_0_0] min-h-[48px] min-w-px relative rounded-[16px] shadow-[0px_1px_1px_0px_rgba(0,0,0,0.07),0px_1px_3px_0px_rgba(0,0,0,0.07),0px_0px_0px_1px_rgba(0,0,0,0.03)]" data-name="Component 2">
         <div className="min-h-[inherit] overflow-clip rounded-[inherit] size-full">
           <div className="content-stretch flex flex-col items-start min-h-[inherit] px-[33px] py-[20.2px] relative w-full">
             <Container3 />
           </div>
         </div>
       </div>
-      <div className="bg-white flex-[1_0_0] min-h-[48px] min-w-px relative rounded-[16px] shadow-[0px_1px_1px_0px_rgba(0,0,0,0.07),0px_1px_3px_0px_rgba(0,0,0,0.07),0px_0px_0px_1px_rgba(0,0,0,0.03)]" data-name="Component 2">
+      <div className="bg-dark flex-[1_0_0] min-h-[48px] min-w-px relative rounded-[16px] shadow-[0px_1px_1px_0px_rgba(0,0,0,0.07),0px_1px_3px_0px_rgba(0,0,0,0.07),0px_0px_0px_1px_rgba(0,0,0,0.03)]" data-name="Component 2">
         <div className="min-h-[inherit] overflow-clip rounded-[inherit] size-full">
           <div className="content-stretch flex flex-col items-start min-h-[inherit] px-[33px] py-[20.2px] relative w-full">
             <Container4 />
@@ -1030,7 +1030,7 @@ function Frame26() {
 }
 
 function Textarea() {
-  return <div className="bg-white h-[300px] rounded-[16px] shadow-[0px_1px_1px_0px_rgba(0,0,0,0.07),0px_1px_3px_0px_rgba(0,0,0,0.07),0px_0px_0px_1px_rgba(0,0,0,0.03)] shrink-0 w-full" data-name="Textarea" />;
+  return <div className="bg-dark h-[300px] rounded-[16px] shadow-[0px_1px_1px_0px_rgba(0,0,0,0.07),0px_1px_3px_0px_rgba(0,0,0,0.07),0px_0px_0px_1px_rgba(0,0,0,0.03)] shrink-0 w-full" data-name="Textarea" />;
 }
 
 function Form() {
@@ -1123,7 +1123,7 @@ function Section8() {
 
 function ParagraphBackground1() {
   return (
-    <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="Paragraph+Background">
+    <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="Paragraph+Background">
       <div className="content-stretch flex flex-col gap-[16px] items-start p-[32px] relative w-full">
         <div className="flex flex-col font-semibold justify-center leading-[0] relative shrink-0 text-primary text-[41px] whitespace-nowrap" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
           <p className="leading-[43.2px]">Respect de la Loi 28</p>
@@ -1140,7 +1140,7 @@ function ParagraphBackground1() {
 
 function ParagraphBackground2() {
   return (
-    <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="Paragraph+Background">
+    <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="Paragraph+Background">
       <div className="content-stretch flex flex-col gap-[16px] items-start p-[32px] relative w-full">
         <div className="flex flex-col font-semibold justify-center leading-[0] relative shrink-0 text-primary text-[41px] w-full" style={{ fontVariationSettings: "\'opsz\' 12, \'wdth\' 100" }}>
           <p className="leading-[43.2px] whitespace-pre-wrap">Respect de la Loi 25 - Politique de confidentialité</p>
@@ -1188,7 +1188,7 @@ function Section9() {
 
 function Section10() {
   return (
-    <div className="bg-white relative shrink-0 w-full" data-name="Section">
+    <div className="bg-dark relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col items-center size-full">
         <div className="content-stretch flex flex-col items-center px-[16px] py-[8px] relative w-full">
           <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#201f1e] text-[22.4px] text-center w-full">

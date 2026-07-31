@@ -129,21 +129,21 @@ function Frame6() {
 function Frame4() {
   return (
     <div className="content-stretch flex gap-[40px] items-start relative shrink-0 w-full">
-      <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
+      <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
         <div aria-hidden="true" className="absolute border border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[16px]" />
         <div className="content-stretch flex gap-[20px] items-start p-[48px] relative w-full">
           <Frame />
           <Frame3 />
         </div>
       </div>
-      <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
+      <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
         <div aria-hidden="true" className="absolute border border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[16px]" />
         <div className="content-stretch flex gap-[20px] items-start p-[48px] relative w-full">
           <Frame1 />
           <Frame5 />
         </div>
       </div>
-      <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
+      <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
         <div aria-hidden="true" className="absolute border border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[16px]" />
         <div className="content-stretch flex gap-[20px] items-start p-[48px] relative w-full">
           <Frame2 />

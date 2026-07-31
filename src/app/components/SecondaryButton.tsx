@@ -16,7 +16,7 @@ export function SecondaryButton({
   onClick,
 }: SecondaryButtonProps) {
   const baseClasses =
-    "inline-block border-2 border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[18px] uppercase  font-['Crimson_Pro']  hover:bg-primary hover:text-[#020202] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] transition-background duration-500";
+    "inline-block border-2 border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[18px] uppercase font-['Crimson_Pro'] hover:bg-primary hover:text-[#020202] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] transition-all duration-500";
 
   const combinedClasses = `${baseClasses} ${className}`.trim();
 

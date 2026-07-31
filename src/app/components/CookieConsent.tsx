@@ -101,13 +101,13 @@ export function CookieConsent() {
         <div className="flex gap-3">
           <button
             onClick={() => handleConsent(true)}
-            className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-full font-semibold text-[18px] hover:opacity-90 transition-opacity"
+            className="inline-block bg-primary text-[#020202] px-8 py-4 rounded-[4px] font-['Crimson_Pro'] font-semibold text-[18px] uppercase shadow-[2px_2px_2px_0px_black,0_0_50px_rgba(255,199,113,0.35)] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] hover:bg-[#ffdead] transition-all duration-500"
           >
             Accepter
           </button>
           <button
             onClick={() => handleConsent(false)}
-            className="inline-block border-2 border-primary text-primary px-8 py-3 rounded-full font-semibold text-[18px] hover:bg-primary/10 transition-colors"
+            className="inline-block border-2 border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[18px] uppercase font-['Crimson_Pro'] hover:bg-primary hover:text-[#020202] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] transition-all duration-500"
           >
             Refuser
           </button>

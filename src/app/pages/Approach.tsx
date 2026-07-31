@@ -78,7 +78,7 @@ export default function Approach() {
             </div>
           ))}
         </div>
-        <div className="mt-24 max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-2xl border border-gray-100 shadow-sm">
+        <div className="mt-24 max-w-4xl mx-auto bg-dark p-8 md:p-12 rounded-2xl border border-gray-100 shadow-sm">
           <h2 className="text-[44px] leading-[48px] sm:text-[54px] sm:leading-[58px] text-primary font-normal text-center mb-6">
             Origine de l'approche
           </h2>

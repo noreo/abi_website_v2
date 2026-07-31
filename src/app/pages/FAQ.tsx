@@ -104,7 +104,7 @@ export default function FAQ() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-dark">
         <div className="max-w-[1000px] mx-auto px-4 md:px-8">
           <FadeInOnScroll delay={200}>
             <Accordion items={faqItems} allowMultiple={false} />

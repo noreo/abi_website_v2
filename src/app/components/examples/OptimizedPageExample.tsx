@@ -65,7 +65,7 @@ export function OptimizedPageExample() {
         SECTION CONTENU - Animations au scroll 
         =====================================
       */}
-      <section className="content py-16 bg-white">
+      <section className="content py-16 bg-dark">
         <div className="container mx-auto px-4">
           
           {/* Animation au scroll - FadeInOnScroll est déjà optimisé */}
@@ -153,7 +153,7 @@ export function OptimizedPageExample() {
         SECTION COMPOSANT LOURD - Code Splitting 
         ========================================
       */}
-      <section className="heavy-section py-16 bg-white">
+      <section className="heavy-section py-16 bg-dark">
         <div className="container mx-auto px-4">
           <FadeInOnScroll>
             <h2 className="text-4xl font-bold text-center mb-12">

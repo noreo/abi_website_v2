@@ -70,7 +70,7 @@ function Container() {
 
 export default function Section() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-center pb-[16px] px-[300px] relative size-full" data-name="Section">
+    <div className="bg-dark content-stretch flex flex-col items-center pb-[16px] px-[300px] relative size-full" data-name="Section">
       <Container />
     </div>
   );

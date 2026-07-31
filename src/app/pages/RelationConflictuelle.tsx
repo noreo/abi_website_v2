@@ -151,7 +151,7 @@ export default function RelationConflictuelle() {
       </section>
 
       {/* Coaching en communication */}
-      <section className="bg-white content-stretch flex flex-col items-center pb-[96px] pt-[24px] px-4 md:px-8 relative w-full">
+      <section className="bg-dark content-stretch flex flex-col items-center pb-[96px] pt-[24px] px-4 md:px-8 relative w-full">
         <div className="w-full max-w-[1320px] mx-auto">
           <FadeInOnScroll>
             <h2 className="text-[38px] leading-[42px] sm:text-[44px] sm:leading-[48px] text-primary font-normal mb-4">

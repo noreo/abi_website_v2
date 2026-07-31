@@ -5,7 +5,7 @@ import imgDetailsSection1 from "figma:asset/6e512aa86f2c1a091d17728c0815f5b8e654
 export default function DetailsSection() {
   return (
     <div className="content-stretch flex flex-col items-start relative size-full" data-name="details section">
-      <div className="bg-white content-stretch flex flex-col gap-[32px] h-[596.75px] items-start pt-[96px] px-[81.5px] relative shrink-0 w-[1419px]" data-name="Section">
+      <div className="bg-dark content-stretch flex flex-col gap-[32px] h-[596.75px] items-start pt-[96px] px-[81.5px] relative shrink-0 w-[1419px]" data-name="Section">
         <div className="content-stretch flex gap-[80px] items-start justify-center overflow-clip relative rounded-[16px] shrink-0 w-full" data-name="card">
           <div className="content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start min-h-px min-w-px relative">
             <p className="font-semibold leading-[48px] relative shrink-0 text-primary text-[44px] w-[582px]" style={{ fontVariationSettings: "'opsz' 12, 'wdth' 100" }}>

@@ -4,7 +4,7 @@ import { FadeInOnScroll } from "../components/FadeInOnScroll";
 
 export default function Legal() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-dark">
       <SEO
         title="Respect des lois et confidentialité pour la thérapie de relation d'aide"
         description="Notre engagement envers la protection de vos renseignements personnels. Conformité avec la Loi 25 et les normes professionnelles en thérapie."

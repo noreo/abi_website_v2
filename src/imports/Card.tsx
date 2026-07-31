@@ -3,7 +3,7 @@ import imgVector from "figma:asset/599548c9cbebc9d6e0bb8ffbbffd8cbf59da8721.png"
 
 export default function Card({ className }: { className?: string }) {
   return (
-    <div className={className || "bg-white content-stretch flex gap-[20px] items-start p-[48px] relative rounded-[16px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_0px_rgba(0,0,0,0.1)] w-[586.667px]"} data-name="card">
+    <div className={className || "bg-dark content-stretch flex gap-[20px] items-start p-[48px] relative rounded-[16px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.1),0px_1px_2px_0px_rgba(0,0,0,0.1)] w-[586.667px]"} data-name="card">
       <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
         <div className="absolute left-[-16px] size-[57px] top-[53px]" data-name="Vector">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 57 57">
