@@ -21,7 +21,7 @@ export function HelpCard({
     <Link
       to={linkTo}
       className={
-        "bg-[#1d1c1c] content-stretch flex gap-[20px] items-start p-[24px] relative rounded-[4px] drop-shadow-[0px_0px_4px_rgba(255,199,113,0.5)] w-full max-w-[800px] hover:bg-[#2b2a2a] hover:drop-shadow-[0px_0px_8px_rgba(255,199,113,0.5)]  transition-all cursor-pointer duration-500"
+        "bg-dark content-stretch flex gap-[20px] items-start p-[24px] relative rounded-[4px] drop-shadow-[0px_0px_4px_rgba(255,199,113,0.5)] w-full max-w-[800px] hover:bg-[#2b2a2a] hover:drop-shadow-[0px_0px_8px_rgba(255,199,113,0.5)]  transition-all cursor-pointer duration-500"
       }
       data-name="card"
     >

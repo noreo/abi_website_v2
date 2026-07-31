@@ -162,7 +162,7 @@ export default function Therapy() {
       </section>
 
       {/* Therapy Types Section */}
-      <section className="w-full bg-white flex justify-center items-center flex-col space-y-8 px-[0px] py-[16px]">
+      <section className="w-full bg-background flex justify-center items-center flex-col space-y-8 px-[0px] py-[16px]">
         <TherapieType />
 
         <TherapieType

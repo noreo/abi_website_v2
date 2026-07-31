@@ -208,7 +208,7 @@ export function ContactSection() {
                 placeholder="Nom"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full bg-card rounded-2xl px-8 py-5 text-[22px] text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary"
+                className="w-full bg-dark rounded-2xl px-8 py-5 text-[22px] text-foreground ring-1 placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -217,18 +217,18 @@ export function ContactSection() {
                 placeholder="Courriel"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full bg-card rounded-2xl px-8 py-5 text-[22px] text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary"
+                className="w-full bg-dark rounded-2xl px-8 py-5 text-[22px] text-foreground ring-1  placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary"
               />
               <input
                 type="tel"
                 placeholder="Téléphone"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                className="w-full bg-card rounded-2xl px-8 py-5 text-[22px] text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary"
+                className="w-full bg-dark rounded-2xl px-8 py-5 text-[22px] text-foreground ring-1  placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
             <textarea
-              className="w-full bg-card rounded-2xl h-[300px] px-8 py-5 text-[22px] text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary resize-none"
+              className="w-full bg-dark rounded-2xl h-[300px] px-8 py-5 text-[22px] text-foreground ring-1 placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary resize-none"
               placeholder="Votre message..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}
@@ -263,7 +263,7 @@ export function ContactSection() {
               />
             </div>
             <button
-              className="bg-primary text-primary-foreground text-[22px] font-semibold py-4 px-12 rounded-full hover:opacity-90 transition-opacity w-full md:w-auto min-w-[200px] disabled:opacity-50 disabled:cursor-not-allowed"
+              className="inline-block bg-primary text-[#020202] px-8 py-4 rounded-[4px] font-['Crimson_Pro'] font-semibold text-[18px] uppercase shadow-[2px_2px_2px_0px_black,0_0_50px_rgba(255,199,113,0.35)] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] hover:bg-[#ffdead] transition-background duration-500 corsor-pointer"
               onClick={handleSubmit}
               disabled={isSubmitting}
             >
