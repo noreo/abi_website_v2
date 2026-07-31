@@ -18,7 +18,7 @@ export default function TherapieType({
     <div
       className={
         className ||
-        "bg-card w-full content-stretch flex flex-col md:flex-row gap-[24px] md:gap-[32px] items-center md:items-start justify-center p-[24px] md:p-[32px] relative rounded-[16px] max-w-[950px]"
+        "w-full content-stretch flex flex-col md:flex-row gap-[24px] md:gap-[32px] items-center md:items-start justify-center p-[24px] md:p-[32px] relative rounded-[16px] max-w-[950px]"
       }
       data-name="therapie type"
     >

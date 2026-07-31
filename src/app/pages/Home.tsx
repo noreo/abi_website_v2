@@ -279,7 +279,7 @@ function ApproachSummary() {
 
 function TherapieTypes() {
   return (
-  <section className="w-full bg-background flex flex-col justify-center items-center space-y-8 pb-16">
+  <section className="w-full flex flex-col justify-center items-center space-y-8 pb-16">
         <TherapieType
           title="Thérapie en marchant ou en ligne"
           description="La thérapie en marchant (walk and talk therapy) combine les effets bénéfiques de la parole et du mouvement. Vous pouvez aussi consulter en ligne depuis le confort de votre foyer."

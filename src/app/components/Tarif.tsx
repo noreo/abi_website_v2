@@ -62,7 +62,7 @@ export function Tarif() {
 
             <Link
               to="/contact"
-              className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-full font-semibold text-[18px] hover:bg-primary/90 transition-colors"
+              className="inline-block bg-primary text-[#020202] px-8 py-4 rounded-[4px] font-['Crimson_Pro'] font-semibold text-[18px] uppercase shadow-[2px_2px_2px_0px_black,0_0_50px_rgba(255,199,113,0.35)] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] hover:bg-[#ffdead] transition-background duration-500"
             >
               Rendez-vous
             </Link>
