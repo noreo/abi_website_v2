@@ -60,7 +60,7 @@ export function Header() {
         <div className="hidden lg:block">
           <Link
             to="/contact"
-            className="border border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[14px] uppercase font-['Crimson_Pro'] hover:bg-primary/10 transition-colors"
+            className="border border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[14px] uppercase font-['Crimson_Pro'] hover:bg-primary hover:text-[#020202] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] transition-all duration-500"
           >
             Rendez-vous
           </Link>
@@ -134,7 +134,7 @@ export function Header() {
           ))}
           <Link
             to="/contact"
-            className="border border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[14px] uppercase font-['Crimson_Pro'] hover:bg-primary/10 transition-colors mt-2"
+            className="border border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[14px] uppercase font-['Crimson_Pro'] hover:bg-primary hover:text-[#020202] hover:shadow-[4px_4px_4px_0px_black,0_0_80px_rgba(255,199,113,0.55)] transition-all duration-200 mt-2"
             onClick={() => setIsMenuOpen(false)}
           >
             Rendez-vous
