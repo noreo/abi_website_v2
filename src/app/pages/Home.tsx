@@ -9,7 +9,6 @@ import imgCardRelation from "figma:asset/948278c8b32f68b8b3116c0978a2893f4d91d1a
 import imgRelation from "figma:asset/009574079d5c9594bbd905966cdffb4245ff83ca.png";
 import imgNeurodivergent from "figma:asset/d651e6ee05d29cbc9bd200ce9c2ea93127c60196.png";
 import { ContactSection } from "../components/ContactSection";
-import IndividualTherapyAbigail from "../../imports/IndividualTherapyAbigail1";
 import { SEO } from "../components/SEO";
 import { FadeInOnScroll } from "../components/FadeInOnScroll";
 import { HelpCard } from "../components/HelpCard";
@@ -18,44 +17,52 @@ import { Tarif } from "../components/Tarif";
 import { OptimizedImage } from "../components/OptimizedImage";
 import TherapieType from "../../imports/TherapieType";
 import imgWalking from "figma:asset/eafaf8f15fceebdb4a4becf6c58e07f0100f4b2a.png";
+import imgBgGlow from "../../assets/bg-glow.png";
 
 
 
 // Hero Section
 function Hero() {
   return (
-    <section className="bg-background min-h-[600px] flex items-center justify-center relative px-[16px] py-[48px]">
-      <div className="max-w-[1320px] w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Text Content */}
-        <div className="space-y-8 relative z-10">
-          <div className="space-y-2">
-            <h1 className="font-medium text-primary leading-[68px] text-[64px]">
-              Thérapeute à Montréal&nbsp;: <span className="leading-[50px] text-[50px] sm:leading-[68px] sm:text-[64px]"> deuil, relation et
-              neurodivergence</span>
-            </h1>
-            <h2 className="text-[2.625rem] leading-[2.625rem] font-medium text-foreground px-[0px] py-[8px]">
-              Abigaïl Leconte
-            </h2>
-            <p className="text-[21px] md:text-[24px] text-foreground leading-relaxed">
-              Je propose un accompagnement chaleureux et sans
-              jugement pour les adultes qui vivent des
-              difficultés dans le deuil, leurs relations ou
-              leurs différences.
-            </p>
-          </div>
-          {/* 
-          <SecondaryButton to="/contact">
-            Rendez-vous
-          </SecondaryButton> */}
+    <section className="bg-background flex items-center justify-center relative px-4 md:px-20 py-24 lg:py-[140px] overflow-hidden">
+      <div className="max-w-[1320px] w-full h-auto lg:h-[500px] relative">
+        {/* Background Glow Image */}
+        <div className="absolute right-0 lg:right-[-200px] top-1/2 -translate-y-1/2 w-[500px] lg:w-[800px] xl:w-[1000px] aspect-square pointer-events-none">
+          <img
+            src={imgBgGlow}
+            alt=""
+            className="w-full h-full object-contain"
+            aria-hidden="true"
+          />
         </div>
 
-        {/* Image / Graphic */}
-        <div className="relative w-full flex items-center justify-center lg:h-[500px]">
-          <div className="relative w-full md:w-[80%] lg:w-[550px]">
-            <div className="w-full aspect-[603/548]">
-              <IndividualTherapyAbigail />
-            </div>
+        {/* Text Content */}
+        <div className="relative z-10 flex flex-col gap-6 items-start max-w-[901px]">
+          {/* Eyebrow */}
+          <div className="flex flex-col gap-2 w-full">
+            <p className="font-['Crimson_Pro'] font-extralight text-[24px] md:text-[32px] leading-[1.2] uppercase text-foreground">
+              Accompagnement thérapeutique<br />
+              &amp; intelligence émotionnelle
+            </p>
+            
+            {/* Main Headline */}
+            <h1 className="font-['Crimson_Pro'] font-normal text-[48px] md:text-[72px] lg:text-[94px] leading-[1.1] tracking-[-0.01em] text-primary drop-shadow-[0_0_24px_rgba(1,4,6,1)]">
+              Retrouve l'éclat de ton véritable moi.
+            </h1>
           </div>
+
+          {/* Paragraph */}
+          <p className="font-['Manrope'] font-normal text-[20px] md:text-[24px] leading-[1.6] text-foreground max-w-[636px]">
+            Quand tu t'adaptes tellement aux autres… Tu ne sais plus vraiment qui tu es. Te retrouver, commence ici.
+          </p>
+
+          {/* CTA Button */}
+          <Link
+            to="/contact"
+            className="bg-primary text-[#020202] px-8 py-4 rounded-[4px] font-['Crimson_Pro'] font-semibold text-[20px] md:text-[24px] uppercase shadow-[2px_2px_2px_0px_black,0_0_50px_rgba(255,199,113,0.35)] hover:opacity-90 transition-opacity"
+          >
+            Prendre Rendez-vous
+          </Link>
         </div>
       </div>
     </section>
