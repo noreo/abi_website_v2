@@ -24,13 +24,13 @@ import imgBgGlow from "../../assets/bg-glow.png";
 // Hero Section
 function Hero() {
   return (
-    <section className="bg-background flex items-center justify-center relative px-4 md:px-20 py-24 lg:py-[140px] overflow-hidden">
+    <section className="bg-background flex items-center justify-center relative px-4 md:px-20 py-8 md:py-24 lg:py-[140px]">
       <div className="max-w-[1320px] w-full h-auto lg:h-[500px] relative">
         {/* Background Glow Image */}
-        <div className="absolute right-0 lg:right-[-200px] top-1/2 -translate-y-1/2 w-[500px] lg:w-[800px] xl:w-[1000px] aspect-square pointer-events-none">
+        <div className="absolute opacity-50 md:opacity-100 right-[-250px] md:right-[-350px] top-1/2 -translate-y-1/2 w-[800px] lg:w-[1000px] aspect-square pointer-events-none ">
           <img
             src={imgBgGlow}
-            alt=""
+            alt="Illustration d'une porte avec halo lumineux en arrière-plan"
             className="w-full h-full object-contain"
             aria-hidden="true"
           />
