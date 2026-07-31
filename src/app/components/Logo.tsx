@@ -5,7 +5,7 @@ export function Logo() {
     <div className="h-[52px] relative w-[151px] shrink-0 text-primary">
       {/* Icon Group */}
       <div className="absolute h-[49.197px] left-[1.3px] top-[1.3px] w-[49.206px]">
-        <svg className="absolute block size-full" fill="none" viewBox="0 0 49.2061 49.1967" aria-labelledby="logoID">
+        <svg className="absolute block size-full" fill="none" viewBox="0 0 49.2061 49.1967" aria-labelledby="logoID" style={{ filter: 'drop-shadow(0 0 24px #D3DAEE) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.50))' }}>
           <title id="logoID">Homepage</title>
           <g>
             <path d={svgPaths.p12640080} fill="url(#paint0_linear_1_493)" />
@@ -29,6 +29,7 @@ export function Logo() {
             </linearGradient>
           </defs>
         </svg>
+        
       </div>
 
       {/* Abigail Text */}
