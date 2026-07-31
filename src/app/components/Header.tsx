@@ -46,8 +46,8 @@ export function Header() {
               className={({ isActive }) =>
                 `text-[18px] font-medium transition-colors ${
                   isActive
-                    ? "text-primary"
-                    : "text-foreground hover:text-primary"
+                    ? "text-foreground"
+                    : "text-primary hover:text-foreground"
                 }`
               }
             >
@@ -60,7 +60,7 @@ export function Header() {
         <div className="hidden lg:block">
           <Link
             to="/contact"
-            className="bg-primary text-primary-foreground px-8 py-3 rounded-full font-semibold text-[18px] hover:opacity-90 transition-opacity"
+            className="border border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[14px] uppercase font-['Crimson_Pro'] hover:bg-primary/10 transition-colors"
           >
             Rendez-vous
           </Link>
@@ -88,8 +88,8 @@ export function Header() {
                     className={({ isActive }) =>
                       `p-4 pt-5  text-center text-[18px] font-medium block ${
                         isActive
-                          ? "text-primary"
-                          : "text-foreground"
+                          ? "text-foreground"
+                          : "text-primary"
                       }`
                     }
                     onClick={() => setIsMenuOpen(false)}
@@ -104,8 +104,8 @@ export function Header() {
                         className={({ isActive }) =>
                           `block py-3 px-8 text-center text-[16px] font-medium ${
                             isActive
-                              ? "text-primary"
-                              : "text-foreground"
+                              ? "text-foreground"
+                              : "text-primary"
                           }`
                         }
                         onClick={() => setIsMenuOpen(false)}
@@ -121,8 +121,8 @@ export function Header() {
                   className={({ isActive }) =>
                     `p-4 py-5 w-full text-center text-[18px] font-medium block ${
                       isActive
-                        ? "text-primary"
-                        : "text-foreground"
+                        ? "text-foreground"
+                        : "text-primary"
                     }`
                   }
                   onClick={() => setIsMenuOpen(false)}
@@ -134,7 +134,7 @@ export function Header() {
           ))}
           <Link
             to="/contact"
-            className="bg-primary text-primary-foreground px-8 py-3 rounded-full font-semibold text-[18px] hover:opacity-90 transition-opacity mt-2"
+            className="border border-primary text-primary px-6 py-3 rounded-[4px] font-medium text-[14px] uppercase font-['Crimson_Pro'] hover:bg-primary/10 transition-colors mt-2"
             onClick={() => setIsMenuOpen(false)}
           >
             Rendez-vous
