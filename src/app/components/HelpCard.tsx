@@ -21,7 +21,7 @@ export function HelpCard({
     <Link
       to={linkTo}
       className={
-        "bg-card border border-border content-stretch flex gap-[20px] items-start p-[24px] relative rounded-[16px] shadow-[0px_1px_3px_0px_rgba(0,0,0,0.3),0px_1px_2px_0px_rgba(0,0,0,0.2)] w-full max-w-[800px] hover:shadow-lg hover:border-primary/30 transition-all cursor-pointer"
+        "bg-[#1d1c1c] content-stretch flex gap-[20px] items-start p-[24px] relative rounded-[4px] drop-shadow-[0px_0px_4px_rgba(255,199,113,0.5)] w-full max-w-[800px] hover:bg-[#2b2a2a] hover:drop-shadow-[0px_0px_8px_rgba(255,199,113,0.5)]  transition-all cursor-pointer duration-500"
       }
       data-name="card"
     >
@@ -59,22 +59,12 @@ export function HelpCard({
           className="absolute left-[45px] size-[40px] top-[-10px]"
           data-name="Vector"
         >
-          <svg
-            className="absolute block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 39 39"
-            aria-hidden="true"
-          >
-            <path
-              d={svgPaths.p220a8800}
-              fill="var(--fill-0, #FFC771)"
-            />
-          </svg>
+          <div className="absolute h-8 w-8 rounded-full border-2 border-[#FFC771]">
+            </div>
         </div>
       </div>
       <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px min-w-px relative h-full pb-[48px]">
-        <h3 className="text-[32px] leading-[34px] font-medium min-w-full relative shrink-0 text-primary w-[min-content] whitespace-pre-wrap">
+        <h3 className="font-playfair text-[32px] leading-[34px] font-semibold min-w-full relative shrink-0 text-[#ffdead] w-[min-content] whitespace-pre-wrap">
           {title}
         </h3>
         <p className="font-normal min-w-full relative shrink-0 text-foreground w-[min-content] whitespace-pre-wrap text-[18px]">

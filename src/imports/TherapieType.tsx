@@ -55,11 +55,11 @@ export default function TherapieType({
                   <g id="Vector">
                     <path
                       d={svgPaths.pee4a100}
-                      fill="var(--fill-0, #7A0081)"
+                      fill="var(--fill-0, #FFC771)"
                     />
                     <path
                       d={svgPaths.p2b4b9b00}
-                      fill="var(--fill-0, #7A0081)"
+                      fill="var(--fill-0, #FFC771)"
                     />
                   </g>
                 </g>
