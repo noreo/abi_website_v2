@@ -3,7 +3,7 @@ import imgTherapieType from "figma:asset/190a22aed929c33152d4a65ca5e0c4ad3f591b6
 
 export default function TherapieType() {
   return (
-    <div className="bg-card content-stretch flex gap-[32px] items-start justify-center p-[32px] relative rounded-[16px] size-full" data-name="therapie type">
+    <div className="bg-dark content-stretch flex gap-[32px] items-start justify-center p-[32px] relative rounded-[16px] size-full" data-name="therapie type">
       <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="img">
         <div className="col-1 ml-[42.5px] mt-[29px] relative row-1 size-[200px]" data-name="Vector">
           <img alt="" className="absolute block max-w-none size-full" height="200" src={imgTherapieType} width="200" />

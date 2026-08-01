@@ -72,7 +72,7 @@ function Hero() {
 // Aide & accompagnement Section
 function HelpSupport() {
   return (
-    <section className="py-16 bg-card">
+    <section className="py-16">
       <div className="w-full max-w-[1320px] mx-auto px-4 md:px-8">
         <FadeInOnScroll>
           <h2 className="text-[44px] leading-[48px] sm:text-[54px] sm:leading-[58px] text-primary font-normal text-center mb-12">
@@ -312,7 +312,7 @@ function TestimonialsPreview() {
 
   return (
     <section
-      className="py-16 bg-card"
+      className="py-16 bg-dark"
       id="sec_Temoignages"
     >
       <div className="w-full max-w-[1320px] mx-auto px-4 md:px-8">
@@ -369,7 +369,7 @@ function AboutPreview() {
     <section className="py-16 relative bg-background" id="Apropos">
       <div className="w-full max-w-[1320px] mx-auto px-4 md:px-8">
         <FadeInOnScroll>
-          <div className="bg-card rounded-[16px] p-8 md:p-12 shadow-sm border border-border relative overflow-hidden">
+          <div className="bg-dark rounded-[16px] p-8 md:p-12 shadow-sm border border-border relative overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
               <div className="lg:col-span-2 space-y-6">
                 <h2 className="text-[44px] leading-[48px] sm:text-[54px] sm:leading-[58px] text-primary font-normal text-center mb-12">
@@ -414,7 +414,7 @@ function AboutPreview() {
 // Contact Info Section
 function ContactInfo() {
   return (
-    <section className="py-16 bg-card" id="contacts01-9">
+    <section className="py-16 bg-dark" id="contacts01-9">
       <div className="w-full max-w-[1320px] mx-auto px-4 md:px-8">
         <div className="flex flex-row justify-center items-center text-center">
           <FadeInOnScroll delay={100}>
@@ -438,7 +438,7 @@ function ContactInfo() {
 function ContactInfoTEMP() {
   return (
     <section
-      className="py-16 bg-card"
+      className="py-16 bg-dark"
       id="contact-info-temp"
     >
       <div className="w-full max-w-[1320px] mx-auto px-4 md:px-8">

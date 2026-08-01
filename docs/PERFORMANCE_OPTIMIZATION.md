@@ -44,7 +44,7 @@ Added Suspense boundary with a loading fallback:
 ```
 
 **Loading Indicator**:
-- Spinning animation in brand color (#0a648e)
+- Spinning animation in brand color (#FFC771;)
 - "Chargement..." text
 - Centered layout
 - Smooth transition

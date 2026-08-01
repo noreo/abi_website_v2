@@ -34,8 +34,8 @@ function Frame3() {
         <div className="absolute bottom-1/4 left-[18.75%] right-[12.44%] top-[24.88%]" data-name="Vector">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 33.03 24.0601">
             <g id="Vector">
-              <path d={svgPaths.p16792980} fill="var(--fill-0, #0A648E)" />
-              <path d={svgPaths.p38e58700} fill="var(--fill-0, #0A648E)" />
+              <path d={svgPaths.p16792980} fill="var(--fill-0, #FFC771;)" />
+              <path d={svgPaths.p38e58700} fill="var(--fill-0, #FFC771;)" />
             </g>
           </svg>
         </div>
@@ -75,8 +75,8 @@ function Frame5() {
         <div className="absolute bottom-1/4 left-[18.75%] right-[12.44%] top-[24.88%]" data-name="Vector">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 33.03 24.0601">
             <g id="Vector">
-              <path d={svgPaths.p16792980} fill="var(--fill-0, #0A648E)" />
-              <path d={svgPaths.p38e58700} fill="var(--fill-0, #0A648E)" />
+              <path d={svgPaths.p16792980} fill="var(--fill-0, #FFC771;)" />
+              <path d={svgPaths.p38e58700} fill="var(--fill-0, #FFC771;)" />
             </g>
           </svg>
         </div>
@@ -116,8 +116,8 @@ function Frame6() {
         <div className="absolute bottom-1/4 left-[18.75%] right-[12.44%] top-[24.88%]" data-name="Vector">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 33.03 24.0601">
             <g id="Vector">
-              <path d={svgPaths.p16792980} fill="var(--fill-0, #0A648E)" />
-              <path d={svgPaths.p38e58700} fill="var(--fill-0, #0A648E)" />
+              <path d={svgPaths.p16792980} fill="var(--fill-0, #FFC771;)" />
+              <path d={svgPaths.p38e58700} fill="var(--fill-0, #FFC771;)" />
             </g>
           </svg>
         </div>
@@ -130,21 +130,21 @@ function Frame4() {
   return (
     <div className="content-stretch flex gap-[40px] items-start relative shrink-0 w-full">
       <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
-        <div aria-hidden="true" className="absolute border border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[16px]" />
+        <div aria-hidden="true" className="absolute border border-[#FFC771;] border-solid inset-0 pointer-events-none rounded-[16px]" />
         <div className="content-stretch flex gap-[20px] items-start p-[48px] relative w-full">
           <Frame />
           <Frame3 />
         </div>
       </div>
       <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
-        <div aria-hidden="true" className="absolute border border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[16px]" />
+        <div aria-hidden="true" className="absolute border border-[#FFC771;] border-solid inset-0 pointer-events-none rounded-[16px]" />
         <div className="content-stretch flex gap-[20px] items-start p-[48px] relative w-full">
           <Frame1 />
           <Frame5 />
         </div>
       </div>
       <div className="bg-dark flex-[1_0_0] min-h-px min-w-px relative rounded-[16px]" data-name="card">
-        <div aria-hidden="true" className="absolute border border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[16px]" />
+        <div aria-hidden="true" className="absolute border border-[#FFC771;] border-solid inset-0 pointer-events-none rounded-[16px]" />
         <div className="content-stretch flex gap-[20px] items-start p-[48px] relative w-full">
           <Frame2 />
           <Frame6 />
@@ -177,7 +177,7 @@ function Paragraph() {
 
 export default function Section() {
   return (
-    <div className="bg-card content-stretch flex flex-col gap-[32px] items-center justify-center py-[88px] relative size-full" data-name="Section">
+    <div className="bg-dark content-stretch flex flex-col gap-[32px] items-center justify-center py-[88px] relative size-full" data-name="Section">
       <div className="flex flex-col font-semibold justify-center leading-[0] relative shrink-0 text-primary text-[54px] text-center w-[800px]" style={{ fontVariationSettings: "'opsz' 12, 'wdth' 100" }}>
         <p className="leading-[54.4px] whitespace-pre-wrap">Une thérapie personnalisé</p>
       </div>

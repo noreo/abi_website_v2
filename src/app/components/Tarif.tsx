@@ -5,11 +5,11 @@ export function Tarif() {
   return (
       <FadeInOnScroll>
     <section
-      className="bg-card relative overflow-visible px-[0px] py-16"
+      className="bg-dark relative overflow-visible px-[0px] py-16"
       id="Tarif"
     >
         <div className="max-w-[1320px] mx-auto px-4 md:px-8 text-center overflow-visible">
-          <div className="w-full bg-card rounded-[16px] p-6 md:p-9 lg:p-16 relative border border-[#330036] shadow-sm overflow-visible">
+          <div className="w-full bg-dark rounded-[16px] p-6 md:p-9 lg:p-16 relative border border-[#330036] shadow-sm overflow-visible">
             {/* Floating Triangle SVG */}
             <svg
               className=" absolute left-[-18.64rem] md:left-[-4.64rem] bottom-[-3rem] overflow-visible"

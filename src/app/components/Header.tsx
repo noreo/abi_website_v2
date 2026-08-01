@@ -96,7 +96,7 @@ export function Header() {
                   >
                     {item.name}
                   </NavLink>
-                  <div className="w-full bg-card py-2">
+                  <div className="w-full bg-dark py-2">
                     {item.subItems.map((subItem) => (
                       <NavLink
                         key={subItem.name}

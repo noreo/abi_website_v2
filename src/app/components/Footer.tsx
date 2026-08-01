@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export function Footer() {
   return (
-    <footer className="bg-card py-8 border-t border-border">
+    <footer className="bg-dark py-8 border-t border-border">
       <div className="max-w-[1320px] mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-foreground text-[16px]">
         <p>© {new Date().getFullYear()} Abigaïl Leconte</p>
         <div className="flex gap-6">

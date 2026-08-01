@@ -10,10 +10,10 @@ interface AccordionItemProps {
 
 function AccordionItem({ question, answer, isOpen, onToggle }: AccordionItemProps) {
   return (
-    <div className="border-b border-gray-200">
+    <div className="border border-gray-500">
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-6 px-4 text-left hover:bg-gray-50 transition-colors"
+        className="w-full flex items-center justify-between py-6 px-4 text-left hover:bg-background transition-colors overflow-hidden cursor-pointer"
         aria-expanded={isOpen}
       >
         <h3 className="leading-[34px] font-semibold pr-4 text-[20px] text-foreground">
@@ -30,7 +30,7 @@ function AccordionItem({ question, answer, isOpen, onToggle }: AccordionItemProp
           isOpen ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="px-4 pb-6 text-foreground leading-relaxed text-[16px]">
+        <div className="px-4 py-6 text-foreground leading-relaxed text-[16px]">
           {answer}
         </div>
       </div>
@@ -62,7 +62,7 @@ export function Accordion({ items, allowMultiple = false }: AccordionProps) {
   };
 
   return (
-    <div className="bg-dark rounded-lg shadow-sm border border-gray-100">
+    <div className="bg-dark rounded-lg shadow-sm">
       {items.map((item, index) => (
         <AccordionItem
           key={index}

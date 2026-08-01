@@ -28,8 +28,8 @@ export default function Card({ className }: { className?: string }) {
           <div className="absolute bottom-1/4 left-[18.75%] right-[12.44%] top-[24.88%]\" data-name=\"Vector\">
             <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 33.03 24.0601">
               <g>
-                <path d={svgPaths.p16792980} fill="var(--fill-0, #0A648E)" />
-                <path d={svgPaths.p38e58700} fill="var(--fill-0, #0A648E)" />
+                <path d={svgPaths.p16792980} fill="var(--fill-0, #FFC771;)" />
+                <path d={svgPaths.p38e58700} fill="var(--fill-0, #FFC771;)" />
               </g>
             </svg>
           </div>

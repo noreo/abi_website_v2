@@ -130,7 +130,7 @@ export default function About() {
               fill="none"
               aria-hidden="true"
             >
-              <path d={svgPaths.p1bb3cd80} fill="#0A648E" />
+              <path d={svgPaths.p1bb3cd80} fill="#FFC771;" />
             </svg>
 
             {/* Circle Two - bottom right decorative */}

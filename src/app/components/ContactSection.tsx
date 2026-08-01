@@ -59,7 +59,7 @@ function ContactBackground2() {
           <g>
             <path
               d={svgPaths.p3bfab080}
-              stroke="#0A648E"
+              stroke="#FFC771;"
               strokeWidth="4"
             />
           </g>
@@ -75,7 +75,7 @@ function ContactBackground2() {
           aria-hidden="true"
         >
           <g opacity="1">
-            <path d={svgPaths.pe1d6c00} fill="#0A648E" />
+            <path d={svgPaths.pe1d6c00} fill="#FFC771;" />
           </g>
         </svg>
       </div>
@@ -187,7 +187,7 @@ export function ContactSection() {
   };
 
   return (
-    <section className="relative bg-card py-16 overflow-hidden">
+    <section className="relative bg-dark py-16 overflow-hidden">
       <ContactBackground />
 
       <div className="relative z-10 max-w-[1320px] mx-auto px-4 md:px-8 flex flex-col lg:flex-row gap-8 items-start justify-center">
@@ -273,7 +273,7 @@ export function ContactSection() {
 
           <div className="grid grid-cols-1 gap-6">
             {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6"> */}
-            {/* <div className="bg-card/10 rounded-2xl p-8 backdrop-blur-sm">
+            {/* <div className="bg-dark/10 rounded-2xl p-8 backdrop-blur-sm">
               <h4 className="text-[28px] text-white font-semibold mb-4">
                 Téléphone
               </h4>
@@ -282,7 +282,7 @@ export function ContactSection() {
               </p>
             </div> */}
 
-            <div className="bg-card/10 rounded-2xl p-8 w-full">
+            <div className="bg-dark/10 rounded-2xl p-8 w-full">
               <h4 className="text-[28px] text-white font-semibold mb-4">
                 Emplacement
               </h4>

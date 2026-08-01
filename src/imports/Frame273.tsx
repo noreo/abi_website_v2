@@ -49,8 +49,8 @@ function Group() {
           <g>
             <path d={svgPaths.p11051d80} stroke="var(--stroke-0, #F0B38F)" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="4" />
             <g>
-              <path d={svgPaths.p2d71a470} stroke="var(--stroke-0, #0A648E)" strokeMiterlimit="10" strokeWidth="4" />
-              <path d={svgPaths.p184fe080} fill="var(--fill-0, #0A648E)" />
+              <path d={svgPaths.p2d71a470} stroke="var(--stroke-0, #FFC771;)" strokeMiterlimit="10" strokeWidth="4" />
+              <path d={svgPaths.p184fe080} fill="var(--fill-0, #FFC771;)" />
             </g>
           </g>
         </svg>

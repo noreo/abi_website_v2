@@ -89,7 +89,7 @@ export function CookieConsent() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50 max-w-md animate-slide-in">
-      <div className="bg-card rounded-lg shadow-2xl border border-border p-6">
+      <div className="bg-dark rounded-lg shadow-2xl border border-border p-6">
         <h3 className="text-[18px] leading-relaxed text-primary font-bold">
           Utilisation des témoins (cookies)
         </h3>

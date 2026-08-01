@@ -39,7 +39,7 @@ function ContactBackground2() {
           <g opacity="1">
             <path
               d={svgPaths.p3bfab080}
-              stroke="#0A648E"
+              stroke="#FFC771;"
               strokeWidth="4"
             />
           </g>
@@ -55,7 +55,7 @@ function ContactBackground2() {
           aria-hidden="true"
         >
           <g opacity="1">
-            <path d={svgPaths.pe1d6c00} fill="#0A648E" />
+            <path d={svgPaths.pe1d6c00} fill="#FFC771;" />
           </g>
         </svg>
       </div>
@@ -65,7 +65,7 @@ function ContactBackground2() {
 
 export function ContactCTA() {
   return (
-    <section className="relative bg-card py-24 overflow-hidden">
+    <section className="relative bg-dark py-24 overflow-hidden">
       <ContactBackground />
 
       <div className="relative z-10 max-w-[1320px] mx-auto px-4 md:px-8 flex flex-col items-center justify-center text-center">

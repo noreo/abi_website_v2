@@ -9,7 +9,7 @@ export default function TherapyInfoCard({
 }: TherapyInfoCardProps) {
   return (
     <div
-      className="bg-card border border-border relative rounded-[16px] self-stretch shrink-0 w-full lg:w-[408px]"
+      className="bg-dark border border-border relative rounded-[16px] self-stretch shrink-0 w-full lg:w-[408px]"
       data-name="card"
     >
       <div className="flex flex-col items-center overflow-clip rounded-[inherit] size-full">

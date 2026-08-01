@@ -36,7 +36,7 @@ export default function Therapy() {
         </h1>
       </section>
 
-      <section className="w-full bg-card space-y-8 px-[16px] py-[56px]">
+      <section className="w-full bg-dark space-y-8 px-[16px] py-[56px]">
         <h2 className="text-[44px] leading-[48px] sm:text-[54px] sm:leading-[58px] text-primary mb-12 text-center font-normal">
           Accompagnement personnalisé
         </h2>
@@ -145,13 +145,13 @@ export default function Therapy() {
                   <g>
                     <path
                       d={svgPathsMoon.p2d71a470}
-                      stroke="var(--stroke-0, #0A648E)"
+                      stroke="var(--stroke-0, #FFC771;)"
                       strokeMiterlimit="10"
                       strokeWidth="4"
                     />
                     <path
                       d={svgPathsMoon.p184fe080}
-                      fill="var(--fill-0, #0A648E)"
+                      fill="var(--fill-0, #FFC771;)"
                     />
                   </g>
                 </g>

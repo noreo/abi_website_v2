@@ -169,7 +169,7 @@ function Frame1() {
     <div className="content-stretch flex flex-col gap-[23px] items-start relative shrink-0 w-[533.34px]">
       <Frame />
       <div className="content-stretch flex h-[48px] items-center justify-center px-[32px] py-[8px] relative rounded-[100px] shrink-0" data-name="Component 1">
-        <div aria-hidden="true" className="absolute border-2 border-[#0a648e] border-solid inset-0 pointer-events-none rounded-[100px]" />
+        <div aria-hidden="true" className="absolute border-2 border-[#FFC771;] border-solid inset-0 pointer-events-none rounded-[100px]" />
         <div className="flex flex-col font-semibold justify-center leading-[0] relative shrink-0 text-primary text-[22.4px] text-center whitespace-nowrap">
           <p className="leading-[29.12px]">Rendez-vous</p>
         </div>
@@ -307,7 +307,7 @@ function Frame11() {
               <div className="absolute inset-[-53.32%_-46.34%]">
                 <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 66.529 62.0085">
                   <g filter="url(#filter0_d_1_534)">
-                    <path clipRule="evenodd" d={svgPaths.p145cd280} fill="var(--fill-0, #0A648E)" fillRule="evenodd" />
+                    <path clipRule="evenodd" d={svgPaths.p145cd280} fill="var(--fill-0, #FFC771;)" fillRule="evenodd" />
                   </g>
                   <defs>
                     <filter colorInterpolationFilters="sRGB" filterUnits="userSpaceOnUse" height="62.0085" id="filter0_d_1_534" width="66.529" x="-1.8683e-09" y="-7.45104e-09">
@@ -352,7 +352,7 @@ function Frame13() {
           <div className="absolute inset-[-76.19%_-40%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 72 53">
               <g filter="url(#filter0_d_1_530)">
-                <path d={svgPaths.p14b14700} fill="var(--fill-0, #0A648E)" />
+                <path d={svgPaths.p14b14700} fill="var(--fill-0, #FFC771;)" />
               </g>
               <defs>
                 <filter colorInterpolationFilters="sRGB" filterUnits="userSpaceOnUse" height="53" id="filter0_d_1_530" width="72" x="0" y="0">
@@ -395,7 +395,7 @@ function Frame15() {
           <div className="absolute inset-[-44.15%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 68.2369 68.2369">
               <g filter="url(#filter0_d_1_528)">
-                <path clipRule="evenodd" d={svgPaths.p139af300} fill="var(--fill-0, #0A648E)" fillRule="evenodd" />
+                <path clipRule="evenodd" d={svgPaths.p139af300} fill="var(--fill-0, #FFC771;)" fillRule="evenodd" />
               </g>
               <defs>
                 <filter colorInterpolationFilters="sRGB" filterUnits="userSpaceOnUse" height="68.2369" id="filter0_d_1_528" width="68.2369" x="-1.49016e-08" y="-1.49016e-08">
@@ -465,7 +465,7 @@ function Frame17() {
           <div className="absolute inset-[-53.33%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 62 62">
               <g filter="url(#filter0_d_1_573)">
-                <path clipRule="evenodd" d={svgPaths.p26bba940} fill="var(--fill-0, #0A648E)" fillRule="evenodd" />
+                <path clipRule="evenodd" d={svgPaths.p26bba940} fill="var(--fill-0, #FFC771;)" fillRule="evenodd" />
               </g>
               <defs>
                 <filter colorInterpolationFilters="sRGB" filterUnits="userSpaceOnUse" height="62" id="filter0_d_1_573" width="62" x="0" y="0">
@@ -788,7 +788,7 @@ function Moon1() {
     <div className="absolute h-[325.253px] left-[1005.54px] top-[11.16px] w-[324.486px]" data-name="moon">
       <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 324.486 325.253">
         <g>
-          <path d={svgPaths.p23b84c00} fill="var(--fill-0, #0A648E)" />
+          <path d={svgPaths.p23b84c00} fill="var(--fill-0, #FFC771;)" />
         </g>
       </svg>
     </div>
@@ -898,7 +898,7 @@ function Frame28() {
     <div className="h-[332.726px] relative shrink-0 w-[341.729px]">
       <div className="absolute left-[5.38px] size-[79px] top-[248.08px]" data-name="Vector">
         <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 79 79">
-          <path d={svgPaths.p1bb3cd80} fill="var(--fill-0, #0A648E)" id="Vector" />
+          <path d={svgPaths.p1bb3cd80} fill="var(--fill-0, #FFC771;)" id="Vector" />
         </svg>
       </div>
       <div className="absolute h-[306px] left-[188.73px] top-0 w-[153px]" data-name="Vector">
@@ -911,7 +911,7 @@ function Frame28() {
       <Img1 />
       <div className="absolute h-[95.026px] left-[225.46px] top-[197.27px] w-[95.027px]" data-name="Vector">
         <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 95.0272 95.0265">
-          <path d={svgPaths.p7fe1b40} fill="var(--fill-0, #0A648E)" id="Vector" />
+          <path d={svgPaths.p7fe1b40} fill="var(--fill-0, #FFC771;)" id="Vector" />
         </svg>
       </div>
     </div>
@@ -1098,8 +1098,8 @@ function Group1() {
             <path d={svgPaths.p16288900} id="Polygon 1" stroke="var(--stroke-0, #F0B38F)" strokeMiterlimit="10" strokeWidth="4" />
             <path d={svgPaths.p911b100} id="Vector" stroke="var(--stroke-0, #F0B38F)" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="4" />
             <g id="moon">
-              <path d={svgPaths.p3bfab080} id="Vector_2" stroke="var(--stroke-0, #0A648E)" strokeMiterlimit="10" strokeWidth="4" />
-              <path d={svgPaths.pe1d6c00} fill="var(--fill-0, #0A648E)" id="Vector_3" />
+              <path d={svgPaths.p3bfab080} id="Vector_2" stroke="var(--stroke-0, #FFC771;)" strokeMiterlimit="10" strokeWidth="4" />
+              <path d={svgPaths.pe1d6c00} fill="var(--fill-0, #FFC771;)" id="Vector_3" />
             </g>
           </g>
         </svg>
