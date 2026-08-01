@@ -56,13 +56,13 @@ export default function Approach() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-background rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              className="bg-dark rounded-[16px] overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="h-[300px] overflow-hidden relative">
                 <img
                   src={card.image}
                   alt={card.title}
-                  className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-90 hover:scale-105 transition-transform duration-700"
+                  className="absolute inset-0 object-cover min-w-full min-h-full h-full hover:scale-105 transition-transform duration-700"
                 />
               </div>
               <div className="p-8 space-y-4">
@@ -101,7 +101,7 @@ export default function Approach() {
           </p>
         </div>
       </section>
-        <section className=" bg-card max-w-[1320px] mx-auto py-16 px-24 overflow-hidden rounded-2xl my-24">
+        <section className=" bg-dark max-w-[1320px] mx-auto py-16 px-24 overflow-hidden my-24">
           <div className="relative z-10 mx-auto px-4 md:px-8 flex flex-col lg:flex-row gap-16 items-start ">
             {/* Text Side */}
             <div className="flex-1 text-white space-y-8">
