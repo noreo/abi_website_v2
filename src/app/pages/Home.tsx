@@ -150,7 +150,7 @@ function ApproachSummary() {
             <br />
             dans le respect de votre rythme, sans jugement.
             <br />
-            Je peux vous aider notamment si vous :
+            Je peux vous aider notamment si vous&nbsp;:
           </p>
         </FadeInOnScroll>
 
