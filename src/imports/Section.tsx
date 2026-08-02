@@ -163,9 +163,9 @@ function Paragraph() {
             <p className="leading-[32px] whitespace-pre-wrap">
               Chaque période difficile mérite une écoute attentive et un soutien adapté.
               <br aria-hidden="true" />
-              {`Je propose une thérapie personnalisées pour vous aider à retrouver équilibre et clarté. `}
+              {`Je propose une thérapie personnalisée pour vous aider à retrouver équilibre et clarté. `}
               <br aria-hidden="true" />
-              {`Voici quelques unes  des accompagnement possible :`}
+              {`Voici quelques-uns des accompagnements possibles :`}
             </p>
           </div>
           <Frame4 />

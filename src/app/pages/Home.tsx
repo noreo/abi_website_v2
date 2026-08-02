@@ -265,7 +265,7 @@ function ApproachSummary() {
                 </svg>
               </div>
               <p className="text-[18px] text-foreground leading-relaxed">
-                <strong>Souhaitez vous épanouir </strong>
+                <strong>Souhaitez vous épanouir</strong>,
                 mieux vous connaître, améliorer votre estime et
                 votre confiance en vous, cultiver l’amour de
                 soi, accepter vos limites, prendre soin de vos
