@@ -1,5 +1,7 @@
 import svgPaths from "../../imports/svg-ks1ah5fqjw";
 import { Link } from "react-router";
+import { Instagram } from "lucide-react";
+import { SocialLink } from "./SocialLink";
 
 function ContactBackground() {
   return (
@@ -76,8 +78,9 @@ export function ContactCTA() {
           <p className="text-[18px] md:text-[21px] text-foreground leading-relaxed">
             Pour un rendez-vous, je vous offre un appel de 15 minutes pour faire connaissance.
             <br />
-            Nous pouvons aussi échanger par courriel.
+            Nous pouvons aussi échanger par courriel ou sur Instagram.
           </p>
+            
           <div className="pt-4">
             <Link
               to="/contact"
@@ -85,6 +88,11 @@ export function ContactCTA() {
             >
               Me joindre
             </Link>
+            <SocialLink
+            href="https://www.instagram.com/abigailtherapeute/"
+            icon={Instagram}
+            label="Instagram"
+          />
           </div>
         </div>
       </div>

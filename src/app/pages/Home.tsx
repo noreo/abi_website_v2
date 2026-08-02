@@ -18,6 +18,8 @@ import { OptimizedImage } from "../components/OptimizedImage";
 import TherapieType from "../../imports/TherapieType";
 import imgWalking from "figma:asset/eafaf8f15fceebdb4a4becf6c58e07f0100f4b2a.png";
 import imgBgGlow from "../../assets/bg-glow.png";
+import { Instagram } from "lucide-react";
+import { SocialLink } from "../components/SocialLink";
 
 
 
@@ -387,10 +389,17 @@ function AboutPreview() {
                   formée au Centre de Relation d'Aide de
                   Montréal (CRAM).
                 </p>
-                <div className="pt-4">
-                  <SecondaryButton to="/a-propos">
+                <div className="flex items-center gap-6 pt-4">
+                  <SecondaryButton className="inline-block" to="/a-propos">
                     À propos
                   </SecondaryButton>
+                    
+                <span className="h-6 w-px bg-border" aria-hidden="true"></span>
+                <SocialLink
+            href="https://www.instagram.com/abigailtherapeute/"
+            icon={Instagram}
+            label="Instagram" 
+          />
                 </div>
               </div>
 

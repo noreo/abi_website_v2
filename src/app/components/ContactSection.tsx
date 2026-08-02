@@ -3,6 +3,8 @@ import { useState, FormEvent, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { emailConfig } from "../config/emailConfig";
 import ReCAPTCHA from "react-google-recaptcha";
+import { Instagram } from "lucide-react";
+import { SocialLink } from "SocialLink";
 
 // Development fallback key (for preview/testing only - regenerate for production!)
 const DEV_RECAPTCHA_KEY =
@@ -197,11 +199,18 @@ export function ContactSection() {
             <h2 className="text-[28px] text-white font-semibold">
               Information ou rendez-vous ?
             </h2>
+              <p className="text-[18px] text-white">
+              Nous pouvons échanger par courriel ou sur<SocialLink
+            href="https://www.instagram.com/abigailtherapeute/"
+            icon={Instagram}
+            label="Instagram"
+          />
+            </p>
+              
             <p className="text-[18px] text-white">
               Pour un rendez-vous, je vous offre un appel de 15
-              minutes pour faire connaissance. <br />
-              Nous pouvons aussi échanger par courriel.
-            </p>
+              minutes pour faire connaissance. </p>
+              
             <div className="grid grid-cols-1">
               <input
                 type="text"
@@ -254,7 +263,6 @@ export function ContactSection() {
                 {success}
               </div>
             )}
-            reCAPTCHA
             <div className="flex justify-start">
               <ReCAPTCHA
                 ref={recaptchaRef}
@@ -282,7 +290,7 @@ export function ContactSection() {
               </p>
             </div> */}
 
-            <div className="bg-dark/10 rounded-2xl p-8 w-full">
+            <div className="bg-background rounded-xl p-8 w-full">
               <h4 className="text-[28px] text-white font-semibold mb-4">
                 Emplacement
               </h4>
