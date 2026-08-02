@@ -88,11 +88,15 @@ export function ContactCTA() {
             >
               Me joindre
             </Link>
+            <div className="mx-auto w-full py-8">
+              <div className="inline-block">
             <SocialLink
             href="https://www.instagram.com/abigailtherapeute/"
             icon={Instagram}
             label="Instagram"
           />
+              </div>
+            </div>
           </div>
         </div>
       </div>
