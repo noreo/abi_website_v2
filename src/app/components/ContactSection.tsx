@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { emailConfig } from "../config/emailConfig";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Instagram } from "lucide-react";
-import { SocialLink } from "SocialLink";
+import { SocialLink } from "./SocialLink";
 
 // Development fallback key (for preview/testing only - regenerate for production!)
 const DEV_RECAPTCHA_KEY =
