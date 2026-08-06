@@ -86,7 +86,7 @@ function HelpSupport() {
             Chaque période difficile mérite une écoute attentive
             et un soutien adapté.
             <br />
-            Je propose une thérapie personnalisées pour vous
+            Je propose une thérapie personnalisée pour vous
             aider à retrouver équilibre et clarté.
             <br />
             Voici quelques-unes des accompagnements possibles :
